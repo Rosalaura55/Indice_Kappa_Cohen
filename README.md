@@ -221,28 +221,3 @@ ck
     ## 
     ##  Number of subjects = 102
 
-# Notas para reproducibilidad
-
-Para que este documento funcione correctamente:
-
-- Guarda `README.Rmd` en la misma carpeta que los archivos de datos
-  requeridos por el script.
-- Abre `README.Rmd` en RStudio.
-- Presiona **Knit**.
-- Se generará un archivo `README.md` con el código, resultados, tablas y
-  gráficas visibles directamente en GitHub.
-
-# Paquetes sugeridos
-
-Si alguno de los paquetes no está instalado, puedes instalarlo con:
-
-``` r
-install.packages(c(
-  "dplyr",
-  "tidyr",
-  "ggplot2",
-  "readr",
-  "knitr",
-  "rmarkdown"
-))
-```
