@@ -17,13 +17,13 @@ esperado por azar.
 
 Interpretación general:
 
-- $Kappa < 0$: acuerdo menor al esperado por azar
-- $Kappa pprox 0: acuerdo similar al azar
-- $0.01 - 0.20: acuerdo leve
-- $0.21 - 0.40: acuerdo aceptable
-- $0.41 - 0.60: acuerdo moderado
-- $0.61 - 0.80: acuerdo sustancial
-- $0.81 - 1.00: acuerdo casi perfecto
+- Kappa < 0: acuerdo menor al esperado por azar
+- Kappa Approx 0: acuerdo similar al azar
+- 0.01 - 0.20: acuerdo leve
+- 0.21 - 0.40: acuerdo aceptable
+- 0.41 - 0.60: acuerdo moderado
+- 0.61 - 0.80: acuerdo sustancial
+- 0.81 - 1.00: acuerdo casi perfecto
 
 # Script original
 
@@ -167,3 +167,6 @@ tabla_compacta
 | 0.9 | 29.6 | 11 | 94 | -0.017 | \[-0.118, 0.082\] | 0.164 | 0.090 | 54.5% | 9.7% |
 
 </div>
+
+
+### Los “hotspots” se definieron a partir de los percentiles de riqueza con P70, P80 y P90. La aplicación de un P70, dando lugar a  36 “hotspots”, se obtuvo un valor Kappa = −0.045 (IC95% ≈ [−0.22, 0.12] por bootstrap; Tabla 9), indicando ausencia de concordancia entre la distribución de los “hotspots” y las celdas con ≥30% de cobertura AMP. En otras palabras, la mayoría de los “hotspots” no están dentro de las AMP (Ver figura en repositorio). El índice de Jaccard = 0.26 y F1 = 0.41 muestran un sobrelapamiento bajo. Aproximadamente 56% de los hotspots se ubican en AMP (P70), cifra que se mantiene en 52–55% para P80–P90. Por lo tanto, cerca de la mitad de los hotspots no están cubiertos por AMP. La sensibilidad a P80 y P90 no modificó la conclusión general.
