@@ -18,12 +18,12 @@ esperado por azar.
 Interpretación general:
 
 - $Kappa < 0$: acuerdo menor al esperado por azar
-- $Kappa pprox 0$: acuerdo similar al azar
-- $0.01 - 0.20$: acuerdo leve
-- $0.21 - 0.40$: acuerdo aceptable
-- $0.41 - 0.60$: acuerdo moderado
-- $0.61 - 0.80$: acuerdo sustancial
-- $0.81 - 1.00$: acuerdo casi perfecto
+- $Kappa pprox 0: acuerdo similar al azar
+- $0.01 - 0.20: acuerdo leve
+- $0.21 - 0.40: acuerdo aceptable
+- $0.41 - 0.60: acuerdo moderado
+- $0.61 - 0.80: acuerdo sustancial
+- $0.81 - 1.00: acuerdo casi perfecto
 
 # Script original
 
